@@ -1,0 +1,88 @@
+.cart-list {
+    width: 640px;
+    margin: 0 auto;
+}
+.cart-list .cart-list-box {
+    border: 1px solid #000;
+}
+.cart-list .cart-list-box ul {
+    padding: 20px;
+}
+.cart-list .cart-list-box ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.cart-list .cart-list-box ul li .info-left,
+.cart-list .cart-list-box ul li .info-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-list .cart-list-box ul li .info-left img {
+    width: 70px;
+    height: auto;
+}
+.cart-list .cart-list-box ul li .info-left h3.name {
+    min-width: 220px;
+}
+.cart-list .cart-list-box ul li .info-right h3.price,
+.cart-list .cart-list-box .total-price h3 {
+    background-color: #d5b02b;
+    padding: 5px;
+    min-width: 60px;
+}
+.cart-list .cart-list-box ul li .info-left .quantity {
+    min-width: 100px;
+    text-align: center;
+}
+.cart-list .cart-list-box ul li .info-left .quantity button {
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+.cart-list .cart-list-box ul li .info-left .quantity button:hover {
+    cursor: pointer;
+}
+.cart-list .cart-list-box ul li .info-left .quantity button.increase {
+    color: #1c976c;
+}
+.cart-list .cart-list-box ul li .info-left .quantity span {
+    display: inline-block;
+    font-size: 20px;
+    min-width: 35px;
+}
+.cart-list .cart-list-box ul li .info-right i {
+    font-size: 20px;
+    opacity: 0.6;
+}
+.cart-list .cart-list-box ul li .info-right i:hover {
+    cursor: pointer;
+}
+.cart-list .cart-list-box .total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+}
+.cart-list .cart-list-box .total-price h3 {
+    margin-right: 35px;
+    text-align: center;
+}
+
+.cart-list.dark .cart-list-box {
+    border: 1px solid #fff;
+}
+.cart-list.dark .cart-list-box ul li .info-left h3.name,
+.cart-list.dark .cart-list-box ul li .info-left .quantity button.decrease,
+.cart-list.dark .cart-list-box ul li .info-left .quantity span,
+.cart-list.dark .cart-list-box ul li .info-right i,
+.cart-list.dark .cart-list-box .total-price h2 {
+    color: #fff;
+}
+.cart-list.dark .cart-list-box .total-price {
+    border-top: 1px solid #fff;
+}

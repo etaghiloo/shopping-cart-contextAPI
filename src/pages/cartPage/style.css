@@ -1,0 +1,6 @@
+.cart-page {
+    min-height: 100vh;
+}
+.cart-page.dark {
+    background: #000;
+}

@@ -1,0 +1,67 @@
+.header {
+    padding: 80px 0 50px 0;
+}
+.header .header-wrapper {
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a h3 {
+    padding: 7px;
+    transition: all 0.3s;
+}
+.header a h3:hover {
+    background-color: #d5b02b;
+}
+.header .menu-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.header .menu-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+.header .menu-right i.light-bulb {
+    font-size: 22px;
+    padding: 7px;
+    margin-right: 30px;
+    color: #a0a0a0;
+}
+.header .menu-right .count {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #27c08a;
+    position: relative;
+}
+.header .menu-right .count h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header .menu-right a i {
+    font-size: 22px;
+    padding: 7px;
+}
+.header .menu-right a i:hover,
+.header .menu-right i.light-bulb:hover {
+    cursor: pointer;
+}
+
+.header.dark .header-wrapper {
+    border: 1px solid #fff;
+}
+.header.dark h3,
+.header.dark .menu-right a i {
+    color: #fff;
+}
+.header.dark .menu-right i.light-bulb {
+    color: #d5b02b;
+}

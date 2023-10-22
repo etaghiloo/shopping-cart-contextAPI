@@ -1,0 +1,6 @@
+.store-page {
+    min-height: 100vh;
+}
+.store-page.dark {
+    background: #000;
+}

@@ -1,0 +1,27 @@
+.notfound-page {
+    min-height: 100vh;
+}
+.notfound-page .not-found {
+    padding: 50px 20px;
+    border: 1px solid #000;
+}
+.notfound-page .not-found .error {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.notfound-page .not-found .error h2.sign {
+    background-color: #d24343;
+    padding: 0 7px;
+}
+.notfound-page .not-found h3 {
+    line-height: 30px;
+}
+
+.notfound-page.dark {
+    background: #000;
+}
+.notfound-page.dark .not-found {
+    color: #fff;
+    border: 1px solid #fff;
+}

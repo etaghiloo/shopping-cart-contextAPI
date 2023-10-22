@@ -1,0 +1,18 @@
+.about-page {
+    min-height: 100vh;
+}
+.about-page .about {
+    padding: 50px 20px;
+    border: 1px solid #000;
+}
+.about-page .about h3 {
+    line-height: 30px;
+}
+
+.about-page.dark {
+    background: #000;
+}
+.about-page.dark .about {
+    color: #fff;
+    border: 1px solid #fff;
+}

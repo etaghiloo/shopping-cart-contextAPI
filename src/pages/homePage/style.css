@@ -1,0 +1,21 @@
+.home-page {
+    min-height: 100vh;
+}
+.home-page .home {
+    padding: 50px 20px;
+    border: 1px solid #000;
+}
+.home-page .home h2 {
+    margin-bottom: 30px;
+}
+.home-page .home h3 {
+    line-height: 30px;
+}
+
+.home-page.dark {
+    background: #000;
+}
+.home-page.dark .home {
+    color: #fff;
+    border: 1px solid #fff;
+}

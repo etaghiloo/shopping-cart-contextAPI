@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "dragonfly",
+        "price": 10,
+        "imgUrl": "../assets/images/dragonfly.png"
+    },
+    {
+        "id": 2,
+        "name": "hedgehog",
+        "price": 32,
+        "imgUrl": "../assets/images/hedgehog.png"
+    },
+    {
+        "id": 3,
+        "name": "lizard",
+        "price": 12,
+        "imgUrl": "../assets/images/lizard.png"
+    },
+    {
+        "id": 4,
+        "name": "turtle",
+        "price": 15.99,
+        "imgUrl": "../assets/images/turtle.png"
+    },
+    {
+        "id": 5,
+        "name": "ship",
+        "price": 9.50,
+        "imgUrl": "../assets/images/ship.png"
+    },
+    {
+        "id": 6,
+        "name": "seashorse",
+        "price": 13.99,
+        "imgUrl": "../assets/images/seashorse.png"
+    }
+]
